@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const Dogs = () => {
     const router = useRouter()
-    console.log(router)
+    // console.log(router)
     const { id } = router.query
     const thisDog = dogs.filter(dog => dog.id == id)[0]
     return (
